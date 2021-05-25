@@ -1,4 +1,4 @@
-Directory = /user/username/example_directory/
+Directory = /user/example/path/
 Scenario  = Test
 Test      = 40000
 MaxTime   = 1000
