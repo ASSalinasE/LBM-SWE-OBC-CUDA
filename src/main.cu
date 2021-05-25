@@ -91,7 +91,7 @@ int main(int argc, char* argv[]) {
 
 	test = scenario + "_" + test;
 	std::string outputdir = dir + "Outputs/outputs_";
-	std::string inputdir = dir + "../Inputs/";
+	std::string inputdir = dir + "Inputs/";
 
 	outputdir.append(test);
 	std::string outputdir_temp = outputdir;
