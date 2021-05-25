@@ -1,0 +1,10 @@
+Directory = /user/username/example_directory/
+Scenario  = Test
+Test      = 40000
+MaxTime   = 1000
+DtPlot    = 1001
+DtTS      = 500
+Tau       = 0.8
+g         = 9.81
+Dt        = 2.0
+Nblocks   = 256
