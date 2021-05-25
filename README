@@ -65,3 +65,12 @@ INPUT FILES REQUIRED:
  Next NTS lines (1 per time series point): x y
    x = Coordinate in meters of the point in the x-axis.
    y = Coordinate in meters of the point in the y-axis.
+
+OUTPUT FILES:
+
+Generated output files are binary files.
+A simple way to recover the values is using the following Python script:
+
+import numpy as np
+w = np.fromfile("output_file_name.dat")
+w = w.reshape((LY,LX))
